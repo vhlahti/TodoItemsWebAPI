@@ -12,7 +12,7 @@
     "TodoItemsWebAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "api/todoitems",
       "applicationUrl": "https://localhost:7227;http://localhost:5218",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
