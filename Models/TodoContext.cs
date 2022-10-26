@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 
 namespace TodoItemsWebAPI.Models
 {
@@ -10,6 +11,6 @@ namespace TodoItemsWebAPI.Models
         {
         }
 
-        public DbSet<TodoItem> TodoItems { get; set; }
+        public DbSet<TodoItem> TodoItems { get; set; } = null!;
     }
 }
